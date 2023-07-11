@@ -1,0 +1,100 @@
+.home-bg {
+  position: absolute;
+  right: -150px;
+}
+.home-dog {
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  right: 0px;
+}
+.top-heading {
+  font-family: "Nunito";
+  color: #7c58d3;
+  font-size: 16px;
+  font-weight: 700;
+}
+.sec-heading {
+  font-family: "Nunito";
+  color: #0e081e;
+  font-size: 68px;
+  font-weight: bolder;
+}
+
+.third-heading {
+  font-family: "Lato";
+  color: #1c103b;
+  font-size: 18px;
+  font-weight: 400;
+}
+.heading-div {
+  width: 40%;
+  margin-top: 300px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bg-div {
+  display: flex;
+}
+.parent {
+  padding: 0px 70px;
+}
+.key-conent-heading {
+  font-family: Nunito;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.key-conent-desc {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.key-content-div {
+  margin-top: 30px;
+  display: flex;
+}
+.content-desc-div {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-div-parent {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+.home-banner {
+  margin-top: 15%;
+}
+.services-heading {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #7c58d3;
+}
+.services-desc {
+  font-family: Nunito;
+  font-size: 46px;
+  font-weight: 800;
+  line-height: 46px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #0b0417;
+}
+.services-div {
+  margin-top: 50px;
+}
+.Sec-Banners-div {
+  margin-top: 70px;
+}

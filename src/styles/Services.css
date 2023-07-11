@@ -1,0 +1,56 @@
+.main-services-div {
+  padding: 0px 30px;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  justify-items: center;
+}
+.service-card {
+  width: 410px !important;
+  height: 282px !important;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.card-img-overlay {
+  margin: 5px 0px 0px 15px;
+  text-align: initial;
+}
+.service-title {
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #0e081e;
+}
+.service-desc {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+.service-rate {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.get-service-txt {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #7c58d3;
+}
+
+.service-card::selection {
+  width: 397px !important;
+  height: 272px !important;
+  cursor: pointer;
+  margin-top: 30px;
+  background-color: #7c58d3;
+}
