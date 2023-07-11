@@ -1,0 +1,41 @@
+.featured-title {
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #0e081e;
+}
+.product-main-div {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+.product-details-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.category-products-div {
+  display: grid;
+  grid-template-columns: 5fr 5fr 5fr;
+}
+.product-title {
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1c103b;
+}
+.product-price {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #7c58d3;
+}

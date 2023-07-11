@@ -10,6 +10,8 @@ import Banner from "../assets/Banner.png";
 import Services from "./Services";
 
 import Banner2 from "../assets/Banner2.png";
+import Banner3 from "../assets/Banner3.png";
+import Products from "./Products";
 function Home(props) {
   console.log("Props Cart", props.cart);
 
@@ -87,6 +89,12 @@ function Home(props) {
 
       <div className="Sec-Banners-div">
         <img src={Banner2} />
+      </div>
+      <div className="products-div">
+        <Products />
+      </div>
+      <div className="mt-4">
+        <img src={Banner3} />
       </div>
     </div>
   );

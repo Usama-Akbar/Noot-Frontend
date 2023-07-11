@@ -1,12 +1,18 @@
-import logo from "./logo.svg";
 import "./App.css";
-import HomeContainer from "./containers/HomeContainer";
-import HeaderContainer from "./containers/HeaderContainer";
+import Main from "./components/Main";
+import Admin from "./components/Admin/Admin";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AddProduct from "./components/Admin/AddProduct";
 function App() {
   return (
     <div className="App">
-      <HeaderContainer />
-      <HomeContainer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />}></Route>
+          <Route path="/admin" element={<Admin />}></Route>
+          <Route path="/add/product" element={<AddProduct />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
