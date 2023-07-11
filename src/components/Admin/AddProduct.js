@@ -36,14 +36,11 @@ export default function AddProduct() {
   const handleUpload = (event) => {
     const file = event.target.files[0];
     setImage(file);
-    const formData = new FormData();
-    formData.append("file", file);
     const reader = new FileReader();
 
     reader.onload = (event) => {
       const base64Data = event.target.result;
       setBase64Image(base64Data);
-      console.log(base64Data);
     };
 
     reader.readAsDataURL(file);
@@ -264,12 +261,13 @@ export default function AddProduct() {
             variant="primary"
             onClick={() => {
               const formData = new FormData();
-              console.log(formData.get("file"));
-              console.log("Fincton called");
+              formData.append("image", image);
+              const uploadedFile = formData.get("image");
+              console.log(uploadedFile);
               savedVariants.push({
                 id: savedVariants.length + 1,
                 sku_set: variants,
-                images_set: [image],
+                images_set: [],
                 discount: discount,
                 price: parseInt(price),
                 quantity: parseInt(quantity),
