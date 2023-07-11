@@ -35,6 +35,7 @@ export default function AddProduct() {
 
   const handleUpload = (event) => {
     const file = event.target.files[0];
+    setImage(file);
     const formData = new FormData();
     formData.append("file", file);
     const reader = new FileReader();
@@ -268,7 +269,7 @@ export default function AddProduct() {
               savedVariants.push({
                 id: savedVariants.length + 1,
                 sku_set: variants,
-                images_set: [formData.get("file")],
+                images_set: [image],
                 discount: discount,
                 price: parseInt(price),
                 quantity: parseInt(quantity),
